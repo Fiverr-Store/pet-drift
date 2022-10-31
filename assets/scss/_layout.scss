@@ -1,0 +1,96 @@
+/*--------------------------------------------------------------
+# why-sec
+--------------------------------------------------------------*/
+.why-sec{
+  padding: 60px 0px;
+  background-color: $primary-color;
+  @media only screen and (max-width: 767px) {
+   padding: 40px 0px;
+  }
+  .sec-t{
+    text-align: center;
+    margin-bottom: 30px;
+    @media only screen and (max-width: 767px) {
+     margin-bottom: 20px;
+    }
+    h2{
+      font-family: $font-title;
+      font-size: 44px;
+      margin-bottom: 12px;
+      @media only screen and (max-width: 991px) {
+       font-size: 40px;
+       margin-bottom: 10px;
+      }
+      @media only screen and (max-width: 767px) {
+       font-size: 36px;
+      }
+      @media only screen and (max-width: 482px) {
+       font-size: 32px;
+      }
+    }
+    p{
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+  .w-single{
+    text-align: center;
+    h3{
+      font-family: $font-title;
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+    p{
+      font-size: 17px;
+    }
+  }
+}
+
+/*--------------------------------------------------------------
+# detect
+--------------------------------------------------------------*/
+.detect{
+  margin: 60px 0px;
+  @media only screen and (max-width: 767px) {
+   margin: 40px 0px;
+  }
+  .det-box{
+    background-color: lighten($color: $primary-color, $amount: 30%);
+    border-radius: 14px;
+    padding: 25px 25px;
+  }
+  .d-texts{
+    .plus-icon{
+      height: 80px;
+      margin-bottom: 12px;
+      @media only screen and (max-width: 991px) {
+       display: none;
+      }
+    }
+    h2{
+      font-family: $font-title;
+      font-size: 38px;
+      margin-bottom: 12px;
+      @media only screen and (max-width: 1199px) {
+       font-size: 34px;
+      }
+      @media only screen and (max-width: 767px) {
+       font-size: 30px;
+      }
+    }
+    p{
+      font-size: 17px;
+      @media only screen and (max-width: 767px) {
+       font-size: 16px;
+      }
+    }
+    h5{
+      font-family: $font-title;
+      font-size: 21px;
+      margin-bottom: 8px;
+      @media only screen and (max-width: 767px) {
+       font-size: 19px;
+      }
+    }
+  }
+}
